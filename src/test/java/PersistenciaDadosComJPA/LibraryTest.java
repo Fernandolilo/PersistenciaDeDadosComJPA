@@ -4,11 +4,14 @@
 package PersistenciaDadosComJPA;
 
 import org.junit.Test;
+
+import application.Application;
+
 import static org.junit.Assert.*;
 
 public class LibraryTest {
     @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
+        Application classUnderTest = new Application();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
 }
